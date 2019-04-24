@@ -11,9 +11,10 @@ This repo contains the code to list Top 5 Mathematicians from a webpage using py
    - Create a functions and start importing the required libraries
    - Inspect the website(if needed), and parse it. Then append the data to a list.
    - Itereate through the list of collected data (100 Mathematicians)
-   - Use the wiki page to find the info stats for each mathematician and replace the string(URI)
+   - Use the wiki page, concatenate the string(URI) and Wiki link. 
+   - Perform API call to Xtools using URL to get JSON data as response.
    - Get JSON formatted data in response from the webserver for the request
-   - Parse 2 key-value pairs which pageviews and pagewatchers.
+   - Parse the JSON data for Page Viewers
    - Sort the data and print the Top 5 page views of Mathematicians
    
    

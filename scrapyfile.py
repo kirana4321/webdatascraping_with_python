@@ -11,4 +11,7 @@ for i in tb:
     res = res+re.findall(r'">(.*?)</a>',str(i))
 # print (res)
 res = list(set(res))
-print(res)
+# print(res)
+
+for i in res:
+    data = requests.get("")

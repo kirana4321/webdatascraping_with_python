@@ -1,4 +1,4 @@
-# webdatascraping_with_python
+# Webdatascraping_with_python
 Web Page scraping of Top 100 mathematicians and list out top 5 page views
 
 This repo contains the code to list Top 5 Mathematicians from a webpage using python libraries and API calls
